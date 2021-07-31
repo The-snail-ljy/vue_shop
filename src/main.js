@@ -34,7 +34,7 @@ Vue.component('tree-table', TreeTable)
 Vue.use(VueQuillEditor)
 
 // 在全局定义了一个时间过滤器，在每个组件都可以调用这个过滤器
-Vue.filter('dataFormat', function(originVal) {
+Vue.filter('dateFormat', function(originVal) {
   const dt = new Date(originVal)
   const y = dt.getFullYear()
   // 加''使结果变成字符串，调用padStar方法 在不足两位时补上0
