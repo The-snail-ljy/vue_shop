@@ -23,5 +23,17 @@ body,
 }
 
 .el-pagination {
-    margin-top: 15px 
+    margin-top: 15px;
+}
+
+.el-steps {
+    margin: 15px 5px;
+}
+
+.el-step__title {
+    font-size: 13px !important;
+}
+ 
+.ql-editor {
+    min-height: 300px;
 }
